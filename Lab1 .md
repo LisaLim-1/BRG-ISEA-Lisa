@@ -156,18 +156,38 @@ whois was required to be installed (sudo apt install whois) to find the email to
 
 lsusb displays the USB devices that are connected to the virtual machine like computer mouse and keyboard.
 
+<img width="532" height="303" alt="Image" src="https://github.com/user-attachments/assets/186b35fa-e232-4790-988b-d6262ca856ef" />
+
+lspci on the other hand displayed virtual devices that were emulated to create the virtual machine. 
+
+<img width="532" height="414" alt="Image" src="https://github.com/user-attachments/assets/42ba5c5d-95c1-47ba-a6a3-4ef0be30b559" />
+
+less /proc/cpuinfo showed information about the CPU. In comparison to 'About this Computer', I preferred the GUI version as it was visually easier to read as a user. 
+
+<img width="547" height="747" alt="Image" src="https://github.com/user-attachments/assets/e05ee086-7295-4b10-9e7b-d4dd17d3ffcd" />
+
+In the text file (white window), lsusb was exported into a file called output_of_lsusb and saved into the current working directory. in the lower half of the screenshot, less output_of_lsusb reads the document individually. 
+
+<img width="547" height="184" alt="Image" src="https://github.com/user-attachments/assets/0d3615af-8423-4cd3-8ebe-a253e9ee6bd5" />
+
+Looking at both cat and less methods to read a file, the difference lies in the way information is being presented to the reader. The less statement clears the entire screen to display the content of the document whereas in cat, it continues right below the statement. 
+
+<img width="468" height="114" alt="Image" src="https://github.com/user-attachments/assets/01f57e01-85bc-4ceb-a087-0a90aa624f40" />
+
+Using the testfile3, I renamed it to hello_world.c by using mv testfile3 hello_world.c. Thereafter, gcc hello_world.c -o hello_world_executable converted the original hello_world.c into an executable within the current working directory. Permissions were changed through chmod 777. This translates that all users of the device is now able to read, edit and run the executable. 
+
+<img width="468" height="153" alt="Image" src="https://github.com/user-attachments/assets/3fc72ad8-11e9-42e1-b682-8f72e9ce69e2" />
+
+<img width="468" height="43" alt="Image" src="https://github.com/user-attachments/assets/05b9edd4-fe75-42fb-bbe7-17de43d0b32f" />
+
+<img width="468" height="718" alt="Image" src="https://github.com/user-attachments/assets/567014f6-7f93-4d41-b9d5-fb11e9515ba9" />
+
+In the first screenshot, less hello_world.c was run. It displayed the contents within the file. However in the later 2 screenshots, where less hello_world_executable was run, the file displayed was a wall of jibberish. This is due to the fact that the file is no longer read in plaintext but rather as a binary and hence will only be readable by the machine. Through some reading, I learned that by using less on a binary file, it forces the binary to be converted to readable human language which translates into the gibberish that is witnessed in the third screenshot.
+
+From a user's perspective, the different methods of distribution (.deb and .rpm) are a convenient method of sharing files with multiple users. However, when it comes to the mainteance of such files, it might be a lot tougher. Auto update does not come with the files and these file sizes tend to run rather large as well which not be easily accomodated by most users.
 
 
-
-
-
-
-
-
-
-
-
-Overall reflection
+#Overall reflection
 
 First thoughts about completing this lab? It was generally straight forward and simple to complete. The learning curve for this was sufficient to get a clear understanding of what each step was for. 
 
