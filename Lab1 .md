@@ -1,6 +1,6 @@
 # Lab 1a Virtualisation and Linux Setup
 
-Session 1a: Setting up Ubuntu and Linux on VMware Fusion
+Session 1a-1: Setting up Ubuntu and Linux on VMware Fusion
 
 In this entry, it will be focused on setting up the virtual machine, loaded with Ubuntu, and connected to the internet. 
 
@@ -15,7 +15,6 @@ Ubuntu image was sourced from their official website.
 <img width="640" height="525" alt="Image" src="https://github.com/user-attachments/assets/bc62a9ac-66d7-4dba-a339-aeed2d5a7f3b" />
 
 The virtual machine has been set up with the following configurations. 
-
 
 <img width="639" height="423" alt="Image" src="https://github.com/user-attachments/assets/f3e26f55-6dca-41b7-acfb-ae38578d0e0d" />
 
@@ -58,6 +57,43 @@ Next I updated and upgraded ssh to ensure that I could remotely connect to anoth
 <img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/0ac03858-dbae-46fd-aa90-1102d797d1c2" />
 
 In the screenshot above, I ran sudo systemctl enable ssh --now to enable ssh to begin the connection. Thereafter I ran, sudo systemctl status ssh to verify that ssh was enabled to allow connection from my virtual machine to the host device. By seeing that the Active status is shown as active (running), I know that it is now enabled. 
+
+#Lab 1a-2: Ubuntu Desktop CLI Familiatisation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Overall reflection
 
