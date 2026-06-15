@@ -64,9 +64,9 @@ In order to have a application for writing, LibreOffice is selected to be the ap
 
 <img width="1210" height="708" alt="Image" src="https://github.com/user-attachments/assets/45a84f55-4e73-4286-9af2-c50b64c36522" />
 
+<img width="525" height="753" alt="Image" src="https://github.com/user-attachments/assets/588e70e1-9bec-438b-8d63-8953cb27d422" />
 
-
-
+At this point, to check all the current running processes, I entered ps -e to derive the above screenshot. 
 
 
 
