@@ -128,9 +128,9 @@ whoami shows me the current user at the moment, which is lisa. However, without 
 
 Using ip a, I was able to have a glance of my current network configuration. 
 
-<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/9066fecb-2ec7-4bcd-8785-ad2794083c14" />
+<img width="607" height="337" alt="Image" src="https://github.com/user-attachments/assets/9e6833cc-eb49-42d6-a308-d0bd1a997b7b" />
 
-Using ip a, I was able to have a glance of my current network configuration. 
+From the browser, I went to whatismyipaddress.com and it returned that my IP address 121.7.241.107. While it shows two different addresses, this means that the address provided on ip a command refers to the IP address that is known internally (within my home network). Whereas, the IP address received from the website simply reflects my external IP address which is made known to the public internet. 
 
 <img width="532" height="224" alt="Image" src="https://github.com/user-attachments/assets/fe01c66f-847f-4ef4-bc48-ad3cfc8415a3" />
 
