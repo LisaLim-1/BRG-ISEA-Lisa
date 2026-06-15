@@ -58,7 +58,7 @@ In the screenshot above, I ran sudo systemctl enable ssh --now to enable ssh to 
 
 In order to have a application for writing, LibreOffice is selected to be the application of choice. The package was downloaded from the official LibreOffice page. The files were extracted and installed based on the steps provided in their wiki page. sudo apt install libreoffice-writer -y was the code use to install LibreOffice Writer with it's essential core packages. Upon successful installation of Writer, it can be opened with the command libreoffice --writer. This will pull up the application as such: 
 
-<img width="1210" height="708" alt="Image" src="https://github.com/user-attachments/assets/45a84f55-4e73-4286-9af2-c50b64c36522" />
+<img width="1140" height="380" alt="Image" src="https://github.com/user-attachments/assets/48ea07aa-9365-4e22-b5c8-70a939a3d527" />
 
 <img width="525" height="753" alt="Image" src="https://github.com/user-attachments/assets/588e70e1-9bec-438b-8d63-8953cb27d422" />
 
