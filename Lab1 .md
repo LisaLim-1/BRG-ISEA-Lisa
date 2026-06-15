@@ -104,8 +104,19 @@ To make a quick copy of a file, cp testfile testfile2 was used in this instance.
 
 By running the code mv testfile2 testfile3, it renamed the file from testfile2 to testfile3. At this point, the content within testfile3 remains the same. 
 
+<img width="424" height="451" alt="Image" src="https://github.com/user-attachments/assets/58c42950-bf32-4f4d-ad36-d5fc22f759c0" />
 
+In the screenshot above, three commands were ran:
 
+1. uname -a: Information was printed in a single line displaying which kernel version the VM is running on
+
+2. lsb-release -a: Shows the current Linux Standard Base which contains the distribution and version number.
+
+3. hostnamectl: Hostname information with a summary of the operating system within the VM is used.
+
+<img width="415" height="403" alt="Image" src="https://github.com/user-attachments/assets/b0e32b79-c3c1-4f90-aaed-4de67ec92f55" />
+
+ls -alt shows a different view where the files are now sorted from the most recently created file in a descending order. 
 
 
 
