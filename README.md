@@ -33,6 +33,8 @@ Terminal has been successfully booted up upon installation of Ubuntu and rebooti
 
 Completion of packages being updated after running 'sudo apt update -y' and 'sudo apt upgrade -y'
 
-sudo grants administrative privileges to perform the required actions (in this case would be updating and upgrading of packages). 
-apt refers to Ubuntu's package management system that will manage the installation, upgrading and removal of software. between update and upgrade, I noticed that update refers to pulling out what are the new available packages for download whereas upgrade would perform the actual download of the packages and hence takes a longer time to complete. 
--y in this case references to indicating 'YES" during the confirmation sought from the system. 
+1. sudo grants administrative privileges to perform the required actions (in this case would be updating and upgrading of packages). 
+
+2. apt refers to Ubuntu's package management system that will manage the installation, upgrading and removal of software. between update and upgrade, I noticed that update refers to pulling out what are the new available packages for download whereas upgrade would perform the actual download of the packages and hence takes a longer time to complete. 
+
+3. -y in this case references to indicating 'YES" during the confirmation sought from the system. 
