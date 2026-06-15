@@ -134,12 +134,27 @@ Using ip a, I was able to have a glance of my current network configuration.
 
 <img width="532" height="224" alt="Image" src="https://github.com/user-attachments/assets/fe01c66f-847f-4ef4-bc48-ad3cfc8415a3" />
 
-I was able to ping 8.8.8.8. 
+I was able to ping 8.8.8.8. Due to being on a bridged network, it makes it possible to ping to 8.8.8.8 as it connects the virtual machine directly to the internet instead of using the host device as a middleman. 
 
+<img width="532" height="329" alt="Image" src="https://github.com/user-attachments/assets/025cedec-985a-4e11-9936-d72333bd2761" />
 
+Able to ping localhost
 
+<img width="532" height="329" alt="Image" src="https://github.com/user-attachments/assets/025cedec-985a-4e11-9936-d72333bd2761" />
 
+GoogleEpicDNS added to /etc/hosts and able to be pinged. 
 
+<img width="533" height="139" alt="Image" src="https://github.com/user-attachments/assets/735e29be-3ddb-4511-9719-b677f7b42a5a" />
+
+google.com is able to be resolved to an IP address.
+
+<img width="533" height="585" alt="Image" src="https://github.com/user-attachments/assets/b0c9b516-aee3-4dc4-b62c-2587f456a763" />
+
+whois was required to be installed (sudo apt install whois) to find the email to report for any abuse complaints.
+
+<img width="533" height="197" alt="Image" src="https://github.com/user-attachments/assets/6d44c71d-37f3-47f9-a55f-fb8bf80cdb71" />
+
+lsusb displays the USB devices that are connected to the virtual machine like computer mouse and keyboard.
 
 
 
