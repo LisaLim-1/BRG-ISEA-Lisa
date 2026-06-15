@@ -21,3 +21,18 @@ The virtual machine has been set up with the following configurations.
 
 Bridged Network has been set up between the virtual machine and host device.
 
+<img width="1288" height="771" alt="Image" src="https://github.com/user-attachments/assets/5449b33d-f7c2-414a-ba50-7226d07bc06b" />
+
+Internet connection has been established successfully from host device to virtual machine. 
+
+<img width="1288" height="542" alt="Image" src="https://github.com/user-attachments/assets/0f809913-8d3f-485d-ac9f-4b69ddc78b46" />
+
+Terminal has been successfully booted up upon installation of Ubuntu and rebooting the virtual machine. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/e137eb1e-787c-41d4-a2bf-9cd1ca642886" />
+
+Completion of packages being updated after running 'sudo apt update -y' and 'sudo apt upgrade -y'
+
+sudo grants administrative privileges to perform the required actions (in this case would be updating and upgrading of packages). 
+apt refers to Ubuntu's package management system that will manage the installation, upgrading and removal of software. between update and upgrade, I noticed that update refers to pulling out what are the new available packages for download whereas upgrade would perform the actual download of the packages and hence takes a longer time to complete. 
+-y in this case references to indicating 'YES" during the confirmation sought from the system. 
