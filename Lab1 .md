@@ -68,11 +68,41 @@ In order to have a application for writing, LibreOffice is selected to be the ap
 
 At this point, to check all the current running processes, I entered ps -e to derive the above screenshot. 
 
+<img width="525" height="753" alt="Image" src="https://github.com/user-attachments/assets/66259c14-62a2-41e3-8794-8c8aa99340ee" />
 
+Next, I ran the command top to see what are the processes running in real-time. When I pressed 1, I noticed that there was another line of CPU showing up. This allows me to effectively monitor the resource usage on my system and give me a one glance to see if more resources are required to be catered for my use. To exit from this view, I hit q to end the monitoring session. 
 
+<img width="525" height="753" alt="Image" src="https://github.com/user-attachments/assets/ca2dfa88-d0a4-40c3-8ba6-a2e288636092" />
 
+<img width="525" height="753" alt="Image" src="https://github.com/user-attachments/assets/a4e2917d-2c6b-4b8f-b1f3-cad1770f2c4d" />
 
+Next, I wanted to explore deeper into what my file system has. With ls, it lists all the files within the present working directory. By adding a -la, I am now able to see the permissions given for each file, the date of each file creation, file size, and the user  and group owner of each file. 
 
+<img width="940" height="267" alt="Image" src="https://github.com/user-attachments/assets/330ee0f2-cad1-4440-9742-8a5bef1e097a" />
+
+I tried to create a new document called 'testfile' using the command touch testfile. As seen on the right side of the screenshot, it instantly created a file called testfile within the location I was currently on.
+
+<img width="940" height="579" alt="Image" src="https://github.com/user-attachments/assets/b798a03f-db2b-45fc-91d4-1b9ee0596a41" />
+
+To edit testfile, I tried to run gedit testfile. However, gedit was not installed in my terminal. So I ran the command sudo apt install gedit -y. After the installation was completed, I was able to open testfile. Using an alternate method to open testfile on terminal instead of UI, nano testfile was used. 
+
+<img width="940" height="213" alt="Image" src="https://github.com/user-attachments/assets/68337292-51d3-409b-b857-01b3a29dde2e" />
+
+From this screenshot, you can see that the file is open in both Terminal as well as in UI mode. Both methods are able to amend the same file. In order to exit from nano mode, I used command+X (mac user). One thing that I would like to point out is that, given a user was only granted access to Terminal and not the UI mode, gedit would not be possible in this case as it requires the UI to open the file. This makes nano a more diverse option for users to be able to amend the file whenever Terminal is accessible to them. 
+
+Sometimes, when we would like to view a file rather than making any changes to it, cat is a command line that can be used in such situations. 
+
+<img width="415" height="90" alt="Image" src="https://github.com/user-attachments/assets/0a395b8a-d8b2-463b-9ea5-33c246ec98a0" />
+
+Alternatively, while less testfile is also a viable option to use to view the file, it provides a completely different perspective of how one views a file. You can quit from the view by pressing q. 
+
+<img width="415" height="579" alt="Image" src="https://github.com/user-attachments/assets/aae1e409-07a2-4fff-ab59-a4e22984eb37" />
+
+To make a quick copy of a file, cp testfile testfile2 was used in this instance. This created an exact copy of testfile and named it testfile2. 
+
+<img width="415" height="198" alt="Image" src="https://github.com/user-attachments/assets/1bded833-a237-474d-8084-a3e538b39d3b" />
+
+By running the code mv testfile2 testfile3, it renamed the file from testfile2 to testfile3. At this point, the content within testfile3 remains the same. 
 
 
 
