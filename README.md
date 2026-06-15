@@ -1,4 +1,4 @@
-# Virtualisation and Linux Setup
+# Lab 1a Virtualisation and Linux Setup
 
 Session 1a: Setting up Ubuntu and Linux on VMware Fusion
 
