@@ -78,6 +78,10 @@ Next, I ran the command top to see what are the processes running in real-time. 
 
 Next, I wanted to explore deeper into what my file system has. With ls, it lists all the files within the present working directory. By adding a -la, I am now able to see the permissions given for each file, the date of each file creation, file size, and the user  and group owner of each file. 
 
+<img width="532" height="522" alt="Image" src="https://github.com/user-attachments/assets/73ca44cc-c6e8-47d8-ba1f-d474d33fd176" />
+
+Lastly, I used ls -lah. this changed the way the file size was displayed as it was more human-readable now in the form of (Kb/Mb/GB).
+
 <img width="940" height="267" alt="Image" src="https://github.com/user-attachments/assets/330ee0f2-cad1-4440-9742-8a5bef1e097a" />
 
 I tried to create a new document called 'testfile' using the command touch testfile. As seen on the right side of the screenshot, it instantly created a file called testfile within the location I was currently on.
@@ -118,7 +122,11 @@ In the screenshot above, three commands were ran:
 
 ls -alt shows a different view where the files are now sorted from the most recently created file in a descending order. 
 
+<img width="532" height="566" alt="Image" src="https://github.com/user-attachments/assets/d73d2735-04da-44a7-b7dc-bb5aa127bf09" />
 
+whoami shows me the current user at the moment, which is lisa. However, without sudo, I was unable to add the user named student. By using sudo adduser student, I was able to add the user named student. I was also prompted to create a password of at least 8 characters with a complexity of lower and uppercase letters, number and special character. I could also change my user from lisa to root simply by entering sudo whoami. 
+
+<img width="532" height="62" alt="Image" src="https://github.com/user-attachments/assets/d8e054a6-9c31-4d72-a0f7-2c2c8bdfdefc" />
 
 
 
