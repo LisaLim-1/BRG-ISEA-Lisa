@@ -42,10 +42,6 @@ Completion of packages being updated after running 'sudo apt update -y' and 'sud
 
 Upon completion of installing all updates to the packages, I ran pwd to check which is the current directory I was working in. Subsequently, I used ls to show me what files are currently in the directory I was working from. This helps me to better understand if I would prefer working in the current file or perform any changes in other files instead. 
 
-<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/9066fecb-2ec7-4bcd-8785-ad2794083c14" />
-
-Using ip a, I was able to have a glance of my current network configuration. 
-
 <img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/a94b48eb-faf2-4ce1-a648-841283878bc3" />
 
 Without opening the browser, I was able to check on my virtual machine's connectivity to the Internet by running ping -c 4 google.com. By indicating 4 within this line of code, it would only ping to the destination (google.com) 4 times. If there was no command of how many times ping should be carried out, it would continue endlessly. 
@@ -128,7 +124,17 @@ whoami shows me the current user at the moment, which is lisa. However, without 
 
 <img width="532" height="62" alt="Image" src="https://github.com/user-attachments/assets/d8e054a6-9c31-4d72-a0f7-2c2c8bdfdefc" />
 
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/9066fecb-2ec7-4bcd-8785-ad2794083c14" />
 
+Using ip a, I was able to have a glance of my current network configuration. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/9066fecb-2ec7-4bcd-8785-ad2794083c14" />
+
+Using ip a, I was able to have a glance of my current network configuration. 
+
+<img width="532" height="224" alt="Image" src="https://github.com/user-attachments/assets/fe01c66f-847f-4ef4-bc48-ad3cfc8415a3" />
+
+I was able to ping 8.8.8.8. 
 
 
 
