@@ -38,3 +38,23 @@ Completion of packages being updated after running 'sudo apt update -y' and 'sud
 2. apt refers to Ubuntu's package management system that will manage the installation, upgrading and removal of software. between update and upgrade, I noticed that update refers to pulling out what are the new available packages for download whereas upgrade would perform the actual download of the packages and hence takes a longer time to complete. 
 
 3. -y in this case references to indicating 'YES" during the confirmation sought from the system. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/abcc7753-6ca5-46ff-aece-63326275240a" />
+
+Upon completion of installing all updates to the packages, I ran pwd to check which is the current directory I was working in. Subsequently, I used ls to show me what files are currently in the directory I was working from. This helps me to better understand if I would prefer working in the current file or perform any changes in other files instead. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/9066fecb-2ec7-4bcd-8785-ad2794083c14" />
+
+Using ip a, I was able to have a glance of my current network configuration. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/a94b48eb-faf2-4ce1-a648-841283878bc3" />
+
+Without opening the browser, I was able to check on my virtual machine's connectivity to the Internet by running ping -c 4 google.com. By indicating 4 within this line of code, it would only ping to the destination (google.com) 4 times. If there was no command of how many times ping should be carried out, it would continue endlessly. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/582a7c94-d33f-46bd-afde-9277a5ef288d" />
+
+Next I updated and upgraded ssh to ensure that I could remotely connect to another computer or cloud server securely over an unsecured network should it ever be used. 
+
+<img width="858" height="471" alt="Image" src="https://github.com/user-attachments/assets/0ac03858-dbae-46fd-aa90-1102d797d1c2" />
+
+In the screenshot above, I ran sudo systemctl enable ssh --now to enable ssh to begin the connection. Thereafter I ran, sudo systemctl status ssh to verify that ssh was enabled to allow connection from my virtual machine to the host device. By seeing that the Active status is shown as active (running), I know that it is now enabled. 
