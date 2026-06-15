@@ -12,8 +12,12 @@ This is version of VMware Fusion that will be used throughout all labs.
 
 Ubuntu image was sourced from their official website. 
 
+<img width="640" height="525" alt="Image" src="https://github.com/user-attachments/assets/bc62a9ac-66d7-4dba-a339-aeed2d5a7f3b" />
+
+The virtual machine has been set up with the following configurations. 
+
 
 <img width="639" height="423" alt="Image" src="https://github.com/user-attachments/assets/f3e26f55-6dca-41b7-acfb-ae38578d0e0d" />
 
-Bridged Network has been set up between the virtual machine and host device
+Bridged Network has been set up between the virtual machine and host device.
 
