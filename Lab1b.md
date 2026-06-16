@@ -101,4 +101,6 @@ mallory is granted sudo user access and she is able to perform sudo commands on 
 
 chgrp -R means recursively change the group ownership of a folder and everything inside the folder as well. chown -R means to change the owner of a folder and all its contents in this case from lisa to root. chmod -R refers to changing the settings of the folder to read, write, execute for owner and group but no access will be granted to users. 
 
+<img width="669" height="636" alt="Image" src="https://github.com/user-attachments/assets/aa6c23ad-1392-4ef0-8eef-dd703dc900f9" />
 
+Removal of shared folder.
