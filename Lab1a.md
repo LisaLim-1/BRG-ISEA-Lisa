@@ -2,7 +2,7 @@
 
 Session 1a-1: Setting up Ubuntu and Linux on VMware Fusion
 
-In this entry, it will be focused on setting up the virtual machine, loaded with Ubuntu, and connected to the internet. 
+In this entry, it will be focused on setting up the virtual machine, loaded with Ubuntu, and establishing connection to the internet. 
 
 <img width="576" height="346" alt="Image" src="https://github.com/user-attachments/assets/f2944a79-5e65-405e-a4bb-a1d4f9b97f8c" />
 
