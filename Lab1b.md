@@ -55,4 +55,13 @@ Upon creation of the folder, a text file was created (helloEmily.txt). Subsequen
 
 <img width="726" height="54" alt="Image" src="https://github.com/user-attachments/assets/02a21c32-03bb-4177-85b7-9ed8787d41a7" /> 
 
-While in the ssh session as emily, I was unable to run the gedit command. This is due to the rights given to emily. As a user of this system, she was only entitled to read rights, 
+While in the ssh session as emily, I was unable to run the gedit command. This is due to the rights given to emily. As a user of this system, she was only entitled to read rights.
+
+<img width="619" height="54" alt="Image" src="https://github.com/user-attachments/assets/1f447ed0-b073-4e75-a538-67a193b08ecb" />
+
+Users alice, bob and mallory created. 
+
+<img width="619" height="57" alt="Image" src="https://github.com/user-attachments/assets/25d81e47-000a-461c-831b-9b8ded692820" />
+<img width="619" height="36" alt="Image" src="https://github.com/user-attachments/assets/995090d3-759c-4d27-aa2d-b4ba5c321d7b" />
+
+A group named awesomegroup is created, users alice and bob have been added into the group. 
