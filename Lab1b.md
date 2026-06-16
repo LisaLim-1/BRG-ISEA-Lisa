@@ -57,19 +57,31 @@ Upon creation of the folder, a text file was created (helloEmily.txt). Subsequen
 
 While in the ssh session as emily, I was unable to run the gedit command. This is due to the rights given to emily. As a user of this system, she was only entitled to read rights.
 
-<img width="619" height="54" alt="Image" src="https://github.com/user-attachments/assets/1f447ed0-b073-4e75-a538-67a193b08ecb" />
+<img width="538" height="669" alt="Image" src="https://github.com/user-attachments/assets/3b785f79-a79f-442f-87ea-e76f3dca2a32" />
 
-Users alice, bob and mallory created. 
+<img width="627" height="56" alt="Image" src="https://github.com/user-attachments/assets/5374f891-f636-44cd-b7ae-9f88487f3b80" />
 
-<img width="619" height="57" alt="Image" src="https://github.com/user-attachments/assets/25d81e47-000a-461c-831b-9b8ded692820" />
-<img width="619" height="36" alt="Image" src="https://github.com/user-attachments/assets/995090d3-759c-4d27-aa2d-b4ba5c321d7b" />
+Creating users alice, bob and mallory. Create group sharedgroup as well. 
 
-A group named awesomegroup is created, users alice and bob have been added into the group. 
+<img width="538" height="38" alt="Image" src="https://github.com/user-attachments/assets/557105de-30fc-4acd-bfcb-edf1de128ff9" />
 
-<img width="619" height="167" alt="Image" src="https://github.com/user-attachments/assets/bffce15d-1202-41a7-a234-4fc73d84d64b" />
+<img width="627" height="74" alt="Image" src="https://github.com/user-attachments/assets/60de0b37-dc31-42bd-a59f-3636335de0ac" />
 
-Setting permission for alice, bob and mallory, and created 10 files within shared folder.
+Added alice and bob to sharegroup
 
-<img width="619" height="238" alt="Image" src="https://github.com/user-attachments/assets/90669815-f68c-4a8c-bd41-46b9dd39b9e4" />
+<img width="627" height="324" alt="Image" src="https://github.com/user-attachments/assets/2cf05889-6e0b-4f0a-85bb-1c5a28cfb3c1" />
+
+shared directory is created in /home 
+
+<img width="627" height="324" alt="Image" src="https://github.com/user-attachments/assets/a8c2bc0d-da36-4bfb-9619-aaa0c79b13c4" />
+
+created 10 files in shared folder
+
+<img width="379" height="590" alt="Image" src="https://github.com/user-attachments/assets/e014235e-46db-4fbb-a305-532ca610a89b" />
+
+<img width="444" height="332" alt="Image" src="https://github.com/user-attachments/assets/8573f665-8ff5-4fd2-aac5-29a004eff9f9" />
+
+all 3 newly created usersare able to access the shared folder 
+
 
 
