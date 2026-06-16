@@ -77,10 +77,28 @@ shared directory is created in /home
 
 created 10 files in shared folder
 
+<img width="521" height="375" alt="Image" src="https://github.com/user-attachments/assets/7ecd2d1d-7704-455e-bcd2-9a2c4dac6fd4" />
 
+bob is able to access /home/lisa/shared, but he does not have sufficient permissions to create a new file within the folder. with such permissions, bob is also able to make changes to any of the 10 files in the directory as the persmissions granted for members in the sharedgroup are able to read, write and execute. 
 
-Permission granted to owner (read, write, execute) and group (read and execute) but not to user.
+<img width="521" height="140" alt="Image" src="https://github.com/user-attachments/assets/4b0fd88e-8a37-4ba6-b026-dea34552d0f0" />
 
+mallory is unable to access /home/lisa/shared because she is not granted any rights. 
 
+<img width="837" height="106" alt="Image" src="https://github.com/user-attachments/assets/788d33df-2a76-4cc9-927b-9b183cd9ef96" />
+
+<img width="494" height="307" alt="Image" src="https://github.com/user-attachments/assets/05db3986-aa37-4011-909e-406daae6e1f7" />
+
+alice, like bob, is able to access /home/lisa/shared and make changes to any of the 10 files within the directory. she is also unable to create a new file and directory within the shared folder as she is not granted full permission to every directory of the path despite being granted read, write and execute access. 
+
+<img width="494" height="114" alt="Image" src="https://github.com/user-attachments/assets/25aee7c2-4c47-453d-a265-bf847a0afe33" />
+
+<img width="494" height="114" alt="Image" src="https://github.com/user-attachments/assets/431f0940-17cb-4177-83d7-6876a7aac6f2" />
+
+mallory is granted sudo user access and she is able to perform sudo commands on her account. 
+
+<img width="669" height="320" alt="Image" src="https://github.com/user-attachments/assets/33ffa98a-7751-4c4c-b5f9-d4831532c68f" />
+
+chgrp -R means recursively change the group ownership of a folder and everything inside the folder as well. chown -R means to change the owner of a folder and all its contents in this case from lisa to root. chmod -R refers to changing the settings of the folder to read, write, execute for owner and group but no access will be granted to users. 
 
 
