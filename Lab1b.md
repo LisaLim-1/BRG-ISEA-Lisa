@@ -41,6 +41,18 @@ User Emily is able to access my localhost.
 Downloaded books from gutenberg using wget. Port 443 was not opened, so opened on ufw using sudo ufw allow 443/tcp
 and managed to download the files. Files were moved from Downloads folder into books folder. The files were then subsequently zipped. However when comparing file sizes, books file size was 4096 bits whereas books.tar.bz2 came in at 316156 bits. Upon reading deeper, it was learned that books file was treated like index of a bigger file, meaning it would only consume the default block size of 4096 bits. However since books.tar.gz is a compressed file of the different books within it, the file size reflects as such instead. 
 
-<img width="1279" height="82" alt="Image" src="https://github.com/user-attachments/assets/0704a12a-3455-4dc1-944b-813b3589e40d" />
+<img width="1279" height="166" alt="Image" src="https://github.com/user-attachments/assets/e6c712e5-67f6-48dc-939e-3f73f89a36d2" />
 
-scp moveing file to lisa folder from 
+scp moving file from /home/lisa to /home/lisa/Downloads/.
+
+<img width="1204" height="385" alt="Image" src="https://github.com/user-attachments/assets/dcdc1f52-c706-4e8b-a4d9-d802c603a10d" />
+
+ssh into another account and created a test folder
+
+<img width="726" height="92" alt="Image" src="https://github.com/user-attachments/assets/63112006-e39f-4169-a6db-ccef9869d65b" />
+
+Upon creation of the folder, a text file was created (helloEmily.txt). Subsequently, the file was updated with a greeting using echo into helloEmily.txt. 
+
+<img width="726" height="54" alt="Image" src="https://github.com/user-attachments/assets/02a21c32-03bb-4177-85b7-9ed8787d41a7" /> 
+
+While in the ssh session as emily, I was unable to run the gedit command. This is due to the rights given to emily. As a user of this system, she was only entitled to read rights, 
