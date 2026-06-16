@@ -77,11 +77,10 @@ shared directory is created in /home
 
 created 10 files in shared folder
 
-<img width="379" height="590" alt="Image" src="https://github.com/user-attachments/assets/e014235e-46db-4fbb-a305-532ca610a89b" />
 
-<img width="444" height="332" alt="Image" src="https://github.com/user-attachments/assets/8573f665-8ff5-4fd2-aac5-29a004eff9f9" />
 
-all 3 newly created usersare able to access the shared folder 
+Permission granted to owner (read, write, execute) and group (read and execute) but not to user.
+
 
 
 
