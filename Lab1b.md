@@ -104,3 +104,12 @@ chgrp -R means recursively change the group ownership of a folder and everything
 <img width="669" height="636" alt="Image" src="https://github.com/user-attachments/assets/aa6c23ad-1392-4ef0-8eef-dd703dc900f9" />
 
 Removal of shared folder.
+
+Reflection
+Linux permissions are relatively more simple, focusing on user groups (owner, group, user) and permissions (read, write, execute) However in Windows ACL it gets deeper since it is possible to assign specific access to the various users and group. It is also good to note that the windows rules will take precedence over linux permissions.
+
+When using chmod 770 and 750, the main difference is in the access granted at the group level. In 770, it represents that both owner and group are granted full access to a file / folder, no access is granted to the user. Whereas in 750, owner is granted full read, write and execute permissions but group gets read and execute permissions. Likewise, the user group get no access. 
+
+The risk of adding users to sudo group focuses mostly on granting the wrong people excessive access to files which they should be be able to access. With excessive rights, they are given opportunities to cause potential damage to files, like deleting, moving or copying files to places where they do not belong in. 
+
+By using su and whoami, you are able to accurately tell at the point of accessing any file or making any changes, you can tell which account you are accessing from. One, this aids in tracking logs to ensure accountability on who is making changes, and secondly, in the event of a breach, one would be able to quickly narrow down and identify which are the accounts that could have been breached due to a lack of protocol enforced on it (i.e., forgetting to remove an account on time when the user no longer exists in an organisation.)
