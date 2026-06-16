@@ -65,3 +65,11 @@ Users alice, bob and mallory created.
 <img width="619" height="36" alt="Image" src="https://github.com/user-attachments/assets/995090d3-759c-4d27-aa2d-b4ba5c321d7b" />
 
 A group named awesomegroup is created, users alice and bob have been added into the group. 
+
+<img width="619" height="167" alt="Image" src="https://github.com/user-attachments/assets/bffce15d-1202-41a7-a234-4fc73d84d64b" />
+
+Setting permission for alice, bob and mallory, and created 10 files within shared folder.
+
+<img width="619" height="238" alt="Image" src="https://github.com/user-attachments/assets/90669815-f68c-4a8c-bd41-46b9dd39b9e4" />
+
+
