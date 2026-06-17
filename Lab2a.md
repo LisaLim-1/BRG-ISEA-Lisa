@@ -9,7 +9,12 @@
 
 <img width="1346" height="704" alt="Image" src="https://github.com/user-attachments/assets/c8984c7d-534b-4a62-8d2e-0a59152ae721" />
 
+
+Canon model is more geared towards a entry level home printer for personal use. 
+
 <img width="1346" height="820" alt="Image" src="https://github.com/user-attachments/assets/3297e8e0-e459-4157-9350-ecf52bb13f97" />
+
+Brother model on the other hand is more suited for office use and is better ina  work group. 
 
 
 ## Assumptions made:
@@ -31,8 +36,7 @@ Additional assumptions made:
 
 3. Paper costs were kept the same assuming both printers were given the same type of printer and printing would only be on one side.
 
-4. Printer ink catridge were counted based on 80% printing on black ink adn 20% printing on other colours.
-5. 
+4. Printer ink catridge were counted based on 80% printing on black ink adn 20% printing on other colours. 
 
 <img width="549" height="509" alt="image" src="https://github.com/user-attachments/assets/de4d9791-5c1c-4e2a-88fc-e8265a3f5fe4" />
 
