@@ -8,3 +8,10 @@ lisalim.duckdns.org created using the public IP address of 52.91.161.124.
 
 nslookup is able to resolve the domain name and translate it into the ubuntu's public ip address.
 
+<img width="1318" height="1009" alt="image" src="https://github.com/user-attachments/assets/4122b9c7-6160-4511-848f-59a4d32a4c92" />
+
+From the new domain created, Apache2 page was loaded. 
+
+<img width="463" height="174" alt="image" src="https://github.com/user-attachments/assets/8e79edf8-c39c-4b6f-bde0-40aae7d3335e" />
+
+Verified that HTTPS is successfully installed for lisalim.duckdns.org
