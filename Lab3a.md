@@ -15,3 +15,7 @@ From the new domain created, Apache2 page was loaded.
 <img width="463" height="174" alt="image" src="https://github.com/user-attachments/assets/8e79edf8-c39c-4b6f-bde0-40aae7d3335e" />
 
 Verified that HTTPS is successfully installed for lisalim.duckdns.org
+
+<img width="686" height="241" alt="image" src="https://github.com/user-attachments/assets/488ad4a0-141b-47cb-a813-06fdf3f48bd4" />
+
+Successful dry run for renew HTTPS certificate on nginx. 
