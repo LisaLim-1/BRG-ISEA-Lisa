@@ -32,28 +32,7 @@ Additional assumptions made:
 3. Paper costs were kept the same assuming both printers were given the same type of printer and printing would only be on one side.
 
 4. Printer ink catridge were counted based on 80% printing on black ink adn 20% printing on other colours.
-
-Type of Printer	Canon Inkjet 	Brother Colour Laser	Method of calculation
-Cost Incurred	$79 	$608 	Price listed online
-Cartridge Yield 	300 pages	"Black: 3000 pages
-Colour: 2300 pages"	Listed online 
-Cartridge needed 	650	69	"156000/3000 = number of black ink
-39000/2300 = number of coloured ink"
-Cost per cartridge	$23,400 	$9,810 	"80% of 195000 = 156000 (printed in black, the remaining 39000 will use the other ink cartridges
-
-"
-Drum cost	There is no drum for this model	$2,120.10 	"Online price 
-1 drum prints 20000 pages (Price listed online: $212.01)
-For 750 pages * 52 weeks * 5 years =195000pages 
-195000/20000= 9.75 drums (rounded up to the next whole number: 10)"
-Paper cost	$2,340 	$2,340 	"195000 / 500 = 390 reams of paper
-390 * $6 gets the cost of 5 years worth of paper"
-Electricity cost 	"(Printing) $1.75
-(Sleep mode) $2.92"	"(Printing) $19.50
-(Sleep mode) $30.82"	"$0.30/kWh
-For the amount of paper printed per week, 750 pages will complete printing in 30 mins.
-The remaining 7.5 hours of the day will be spent in sleep mode"
-Total	$25,823.68 	$14,928.42 	
+5. 
 
 <img width="549" height="509" alt="image" src="https://github.com/user-attachments/assets/de4d9791-5c1c-4e2a-88fc-e8265a3f5fe4" />
 
